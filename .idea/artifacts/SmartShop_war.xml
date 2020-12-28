@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SmartShop:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SmartShop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SmartShop-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SmartShop:war exploded" />
+    </root>
+  </artifact>
+</component>

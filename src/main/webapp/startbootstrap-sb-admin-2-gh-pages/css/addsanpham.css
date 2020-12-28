@@ -1,0 +1,124 @@
+/*-- login --*/
+.modal-body {
+    padding: 15px 15px 30px;
+}
+.login-right, .login-bottom {
+    float: left;
+    width: 46%;
+    margin: 0 2%;
+}
+.login-right input[type="text"] ,.login-right input[type="password"] ,.login-bottom input[type="text"] ,.login-bottom input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    font-weight: normal;
+    background: none;
+    border: 1px solid #E6E4E4;
+    color: #000000;
+    outline: none;
+    font-size: 14px;
+    margin: 6px 0 17px 0px;
+}
+.login-right input[type="text"]:hover, .login-right input[type="password"]:hover, .login-bottom input[type="text"]:hover, .login-bottom input[type="password"]:hover{
+    border: 1px solid #FDA30E;
+}
+.login-right h4,.login-bottom h4 {
+    color: orange;
+    font-size: 14px;
+    margin: 0 0 0px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.login-right input[type="submit"],.login-bottom input[type="submit"]{
+    background:#7B7B7B;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    width: 100%;
+    outline: none;
+    -webkit-appearance: none;
+    padding: 8px 15px 9px 15px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.login-right input[type="submit"]:hover,.login-bottom input[type="submit"]:hover {
+
+    background: #FDA30E;
+}
+.modal-dialog {
+    width: 750px;
+    margin: 30px auto;
+}
+.modal-header {
+    border-bottom: none;
+}
+.login-right h3 ,.login-bottom h3{
+    color: #000000;
+    font-size: 22px;
+    margin-bottom: 23px;
+}
+.sign-in a {
+    font-size: 12px;
+    color: #A9A9A9;
+    text-decoration: none;
+}
+.sign-in a:hover{
+    color: #FDA30E;
+}
+.single-bottom input[type="checkbox"] {
+    display: none;
+}
+.single-bottom input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 31px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #A9A8A8;
+    font-weight:normal;
+}
+.single-bottom input[type="checkbox"]+label span:first-child {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border:2px solid #FDA30E;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.single-bottom input[type="checkbox"]:checked+label span:first-child:before {
+    content: "";
+    background:url(../images/mark1.png)no-repeat;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    font-size: 10px;
+    width:16px;
+    height:16px;
+}
+.single-bottom {
+    margin:14px 0 22px;
+}
+.login-grids p{
+    font-size:14px;
+    text-align:center;
+    margin-top:30px;
+    color:#000;
+}
+.login-grids p a {
+    color: #000;
+    text-decoration: none;
+}
+.login-grids p a:hover{
+    color: #FDA30E;
+}
+table button{
+    margin-top: 3px;
+    border: 0px;
+    ackground-color: orange;
+    -webkit-box-shadow: 0 8px 6px -6px orange;
+    -moz-box-shadow: 0 8px 6px -6px orange;
+    box-shadow: 0 8px 6px -6px orange;"
+}
+/*-- //login --*/
